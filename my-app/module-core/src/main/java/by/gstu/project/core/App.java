@@ -1,4 +1,4 @@
-package by.gstu.project;
+package by.gstu.project.core;
 
 /**
  * Hello world!

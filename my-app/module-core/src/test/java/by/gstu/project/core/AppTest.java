@@ -1,4 +1,4 @@
-package by.gstu.project;
+package by.gstu.project.core;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
