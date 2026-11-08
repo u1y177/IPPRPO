@@ -1,4 +1,4 @@
-package by.gstu.project.model;
+package by.gstu.project.core.model;
 
 public class Customer {
     private int id;

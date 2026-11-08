@@ -1,9 +1,9 @@
-package by.gstu.project;
+package by.gstu.project.cli;
 
-import by.gstu.project.model.Category;
-import by.gstu.project.model.Customer;
-import by.gstu.project.model.Product;
-import by.gstu.project.service.ShopService;
+import by.gstu.project.core.model.Category;
+import by.gstu.project.core.model.Customer;
+import by.gstu.project.core.model.Product;
+import by.gstu.project.core.service.ShopService;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Scanner;

@@ -1,8 +1,8 @@
-package by.gstu.project.service;
+package by.gstu.project.core.service;
 
-import by.gstu.project.model.Category;
-import by.gstu.project.model.Customer;
-import by.gstu.project.model.Product;
+import by.gstu.project.core.model.Category;
+import by.gstu.project.core.model.Customer;
+import by.gstu.project.core.model.Product;
 import java.util.List;
 import java.util.stream.Collectors;
 

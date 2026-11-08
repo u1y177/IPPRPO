@@ -2,21 +2,9 @@ plugins {
     application
 }
 
-repositories {
-    mavenCentral()
-}
-
 dependencies {
-    implementation(libs.guava)
+    implementation(project(":module-core"))
     implementation("org.fusesource.jansi:jansi:2.4.2")
-}
-
-testing {
-    suites {
-        val test = named<JvmTestSuite>("test") {
-            useJUnit("4.13.2")
-        }
-    }
 }
 
 java {
@@ -26,7 +14,7 @@ java {
 }
 
 application {
-    mainClass = "by.gstu.project.App"
+    mainClass = "by.gstu.project.cli.App"
 }
 
 tasks.run.configure {
